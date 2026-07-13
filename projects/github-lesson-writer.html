@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GitHub Lesson Writer · Deploybase</title>
+<meta name="description" content="Turns source links into a complete, beginner-friendly Markdown lesson file for the Techbase STEM Academy curriculum.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap bar">
+    <div class="brand">
+      <span class="brand-mark"></span>
+      <div>Deploybase<small>AI deployment directory</small></div>
+    </div>
+    <nav class="nav-links">
+      <a class="back-link" href="../index.html">&larr; All deployments</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-head wrap">
+    <div class="meta-row">
+      <span class="status"><span class="dot"></span>Active</span>
+      <span class="card-id mono">AGENT.03</span>
+    </div>
+    <div class="role">Curriculum author</div>
+    <h1>GitHub Lesson Writer</h1>
+    <p class="lede">Hand it a lesson number and a set of source links, and it fetches, merges and rebuilds them into one complete, zero-prior-knowledge Markdown lesson — never a stitched-together summary of the sources.</p>
+    <div class="meta-grid">
+      <div class="cell"><div class="label">Input</div><div class="value">Lesson number + source URLs</div></div>
+      <div class="cell"><div class="label">Output format</div><div class="value">Markdown, fixed front matter</div></div>
+      <div class="cell"><div class="label">Audience</div><div class="value">Zero prior-knowledge learners</div></div>
+      <div class="cell"><div class="label">Naming</div><div class="value mono">lesson-[N]-[topic].md</div></div>
+    </div>
+  </section>
+
+  <section class="content wrap">
+
+    <div class="block">
+      <h2><span class="tag">01</span>What it does</h2>
+      <p class="lead-text">Every source link is fetched in the order it was given, in full, before a single word of the lesson is written. Where two sources cover the same idea, they're merged into one clearer explanation rather than repeated. The result reads as one smooth, logically progressive lesson — not a set of disconnected excerpts — and is grounded throughout in Nigerian names, cities and everyday scenarios.</p>
+    </div>
+
+    <div class="block">
+      <h2><span class="tag">02</span>The three-phase teaching pattern</h2>
+      <ul class="step-list">
+        <li><strong>Build understanding first.</strong> Every technical term is defined in plain language, paired with an analogy, and shown with the simplest possible example — followed immediately by a common beginner mistake and its correction.</li>
+        <li><strong>Guided practice.</strong> Each exercise runs Objective → Scenario → Steps → Hints → Expected Output → Self-Check, set in realistic scenarios like Lagos traffic or school results, with an optional "what-if" variation at the end.</li>
+        <li><strong>Mini project.</strong> One project combining the lesson's concepts, structured Setup → Core Logic → Enhancements → Final Output, with a milestone shown after every stage.</li>
+      </ul>
+    </div>
+
+    <div class="block">
+      <h2><span class="tag">03</span>Fixed lesson structure</h2>
+      <p>Every file opens with a required YAML front matter block, then follows the same thirteen-part order every time: introduction and objectives, prerequisite recap, numbered concept sections, standalone code examples with expected output, three guided exercises, code challenges, a milestone-based mini project, common mistakes, reflection questions, a completion checklist and a quick-reference card.</p>
+      <div class="rule-grid">
+        <div class="rule"><div class="k">Code examples</div><p>Every concept opens with one isolated, 3–6 line example, growing from very simple to realistic, each followed by its expected browser output.</p></div>
+        <div class="rule"><div class="k">Quality checklist</div><p>Fourteen checks — from front matter present to gradually increasing difficulty — verified before any file is saved.</p></div>
+      </div>
+    </div>
+
+    <div class="block">
+      <h2><span class="tag">04</span>Stack</h2>
+      <div class="stack-row">
+        <span class="chip">Markdown</span>
+        <span class="chip">Jekyll front matter</span>
+        <span class="chip">Source fetching</span>
+        <span class="chip">Nigerian-context examples</span>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="wrap" style="padding-bottom:60px;">
+    <div class="cta-band">
+      <div>
+        <h3>Back to the registry</h3>
+        <p>See the other deployed AI systems and the one live public tool.</p>
+      </div>
+      <a class="btn ghost" href="../index.html">All deployments</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap row">
+    <div class="links">
+      <span>Built by <a href="https://babatundeawo.github.io/" target="_blank" rel="noopener">Babatunde Awoyemi</a></span>
+      <a href="https://github.com/babatundeawo" target="_blank" rel="noopener">GitHub profile</a>
+      <a href="https://github.com/techbaseng" target="_blank" rel="noopener">Techbase</a>
+    </div>
+    <span class="fine">Powered by Claude (Anthropic)</span>
+  </div>
+</footer>
+
+</body>
+</html>

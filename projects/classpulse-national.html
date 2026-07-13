@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ClassPulse National — Build Tutor · Deploybase</title>
+<meta name="description" content="An AI programming tutor that walks a student through building ClassPulse National, a multi-school classroom feedback platform for Nigerian schools.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap bar">
+    <div class="brand">
+      <span class="brand-mark"></span>
+      <div>Deploybase<small>AI deployment directory</small></div>
+    </div>
+    <nav class="nav-links">
+      <a class="back-link" href="../index.html">&larr; All deployments</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-head wrap">
+    <div class="meta-row">
+      <span class="status"><span class="dot"></span>Active</span>
+      <span class="card-id mono">AGENT.01</span>
+    </div>
+    <div class="role">AI programming tutor</div>
+    <h1>ClassPulse National — Build Tutor</h1>
+    <p class="lede">A one-on-one mentor for a young student building ClassPulse National, a multi-school classroom feedback platform for Nigerian schools — teaching one architecture step at a time instead of writing the app for him.</p>
+    <div class="meta-grid">
+      <div class="cell"><div class="label">Student</div><div class="value">Ivan (young developer)</div></div>
+      <div class="cell"><div class="label">Supervisor</div><div class="value">Mr. Babatunde</div></div>
+      <div class="cell"><div class="label">Session trigger</div><div class="value mono">class [N]</div></div>
+      <div class="cell"><div class="label">Hosting</div><div class="value">GitHub Pages, free</div></div>
+    </div>
+  </section>
+
+  <section class="content wrap">
+
+    <div class="block">
+      <h2><span class="tag">01</span>What it does</h2>
+      <p class="lead-text">ClassPulse National is a new, separate build from Ivan's earlier finished project, ClassPulse Lite. It's a multi-school classroom feedback platform: schools register, teachers claim subjects, students vote or respond on their class, and everyone sees the results as charts. The tutor's job is to teach Ivan how to build the whole thing, from a single shared guideline document, in small, explainable, confirmable steps — never by handing over finished code.</p>
+    </div>
+
+    <div class="block">
+      <h2><span class="tag">02</span>How a session runs</h2>
+      <table class="flow">
+        <thead><tr><th>They type</th><th>The tutor does</th></tr></thead>
+        <tbody>
+          <tr><td class="cmd">class 1</td><td>Reads the guideline document, then teaches Class 1 step by step.</td></tr>
+          <tr><td class="cmd">class [N]</td><td>Jumps straight to Class N and starts teaching — no recap, no questions first.</td></tr>
+          <tr><td class="cmd">class notes: [message]</td><td>Reads the note, factors it into the current step, then continues.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="block">
+      <h2><span class="tag">03</span>The core architecture</h2>
+      <p>Every school gets three shared entry codes — a School Head Portal Code, a Teacher Entry Code and a Student Entry Code — and a curriculum that auto-generates itself the moment a class or arm is added, following the 2025 NERDC reform. Teachers and students only receive their own long-form personal code once a School Head or subject teacher has approved them.</p>
+      <div class="rule-grid">
+        <div class="rule"><div class="k">Class offering</div><p>One class/arm plus subject pair, claimed by at most one teacher, created automatically with the reformed national curriculum.</p></div>
+        <div class="rule"><div class="k">Approval flow</div><p>Teachers register into a pending list the School Head approves. Students request subjects, and each subject's teacher approves independently.</p></div>
+        <div class="rule"><div class="k">Privacy by design</div><p>Teacher-facing views only ever show aggregates — counts, sums, scores. A student's individual response is never exposed next to their identity.</p></div>
+        <div class="rule"><div class="k">Result views</div><p>Every result offers more than one chart format — bar, line, doughnut — plus a plain-language summary sentence, never a bare chart alone.</p></div>
+      </div>
+    </div>
+
+    <div class="block">
+      <h2><span class="tag">04</span>Teaching principles</h2>
+      <ul>
+        <li><strong>One step at a time.</strong> Plain-English explanation before every code block, then wait for confirmation before moving on.</li>
+        <li><strong>Never rewrite whole files.</strong> Only the new code for the current step, with the exact file and location named.</li>
+        <li><strong>Child-friendly frontend rules</strong> apply at every step — large tap targets, friendly language, colour paired with text, and layouts tested down to 375px wide.</li>
+        <li><strong>Celebrate every working step</strong> — encouragement is part of the method, not an afterthought.</li>
+      </ul>
+    </div>
+
+    <div class="block">
+      <h2><span class="tag">05</span>Stack</h2>
+      <div class="stack-row">
+        <span class="chip">HTML / CSS / JavaScript</span>
+        <span class="chip">Supabase (DB, auth, API)</span>
+        <span class="chip">Chart.js</span>
+        <span class="chip">GitHub Desktop</span>
+        <span class="chip">GitHub Pages</span>
+        <span class="chip">No paid services</span>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="wrap" style="padding-bottom:60px;">
+    <div class="cta-band">
+      <div>
+        <h3>Back to the registry</h3>
+        <p>See the other deployed AI systems and the one live public tool.</p>
+      </div>
+      <a class="btn ghost" href="../index.html">All deployments</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap row">
+    <div class="links">
+      <span>Built by <a href="https://babatundeawo.github.io/" target="_blank" rel="noopener">Babatunde Awoyemi</a></span>
+      <a href="https://github.com/babatundeawo" target="_blank" rel="noopener">GitHub profile</a>
+      <a href="https://github.com/techbaseng" target="_blank" rel="noopener">Techbase</a>
+    </div>
+    <span class="fine">Powered by Claude (Anthropic)</span>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+// Deployment registry data — edit this to add/remove/reorder cards.
+// Loaded as a plain script (not fetch) so the site works even opened directly as a local file.
+var PROJECTS = [
+  {
+    "id": "AGENT.01",
+    "status": "active",
+    "name": "ClassPulse National \u2014 Build Tutor",
+    "role": "AI programming tutor",
+    "summary": "Walks a student through building a multi-school classroom feedback platform for Nigerian schools, one guided step at a time, from a shared architecture and curriculum spec.",
+    "stack": [
+      "HTML/CSS/JS",
+      "Supabase",
+      "Chart.js",
+      "GitHub Pages"
+    ],
+    "href": "projects/classpulse-national.html"
+  },
+  {
+    "id": "AGENT.02",
+    "status": "active",
+    "name": "Social Content Engine",
+    "role": "Daily content generator",
+    "summary": "Researches the day's live themes and produces platform-ready social posts for two organisations, compiled into a formatted document for each, on command.",
+    "stack": [
+      "Live research",
+      "DOCX output",
+      "Multi-brand"
+    ],
+    "href": "projects/social-content-engine.html"
+  },
+  {
+    "id": "AGENT.03",
+    "status": "active",
+    "name": "GitHub Lesson Writer",
+    "role": "Curriculum author",
+    "summary": "Turns a set of source links into a single, beginner-friendly Markdown lesson, complete with exercises, a mini project and a fixed front-matter format.",
+    "stack": [
+      "Markdown",
+      "Jekyll front matter",
+      "W3Schools sourcing"
+    ],
+    "href": "projects/github-lesson-writer.html"
+  },
+  {
+    "id": "AGENT.04",
+    "status": "active",
+    "name": "GitHub Portfolio Rebuild",
+    "role": "Repo modernization workflow",
+    "summary": "A recurring rebuild process across two GitHub profiles \u2014 a distinct visual identity per repo, a modern README, and one strict linking architecture kept consistent everywhere.",
+    "stack": [
+      "Repo audits",
+      "README system",
+      "Link architecture"
+    ],
+    "href": "projects/github-portfolio-rebuild.html"
+  },
+  {
+    "id": "AGENT.05",
+    "status": "active",
+    "name": "Nigerian Christian Apologist",
+    "role": "Article writing assistant",
+    "summary": "Builds sermon notes, transcripts and rough ideas into full, publish-ready theological articles, researched, Scripture-cited and referenced in APA format.",
+    "stack": [
+      "Markdown output",
+      "APA references",
+      "Theological research"
+    ],
+    "href": "projects/nigerian-christian-apologist.html"
+  },
+  {
+    "id": "AGENT.06",
+    "status": "active",
+    "name": "Substack Post Formatter",
+    "role": "Publication production assistant",
+    "summary": "Takes a raw writeup and returns a complete, publish-ready Substack post package, preserving the author's voice exactly, word for word.",
+    "stack": [
+      "Substack formatting",
+      "Voice preservation"
+    ],
+    "href": "projects/substack-post-formatter.html"
+  },
+  {
+    "id": "AGENT.07",
+    "status": "active",
+    "name": "Techbase Code Coach",
+    "role": "Beginner coding tutor",
+    "summary": "Fetches a lesson, breaks it into numbered phases, and coaches STEM Academy students as young as eight through it, one small win at a time.",
+    "stack": [
+      "Lesson fetch",
+      "Phased teaching",
+      "Ages 8+"
+    ],
+    "href": "projects/techbase-code-coach.html"
+  },
+  {
+    "id": "TOOL.01",
+    "status": "tool",
+    "name": "Educator AI Toolkit",
+    "role": "Live tool \u2014 free for teachers",
+    "summary": "A free, step-by-step guide site that turns Claude into an exam paper, marking guide and weekly lesson note generator for Nigerian secondary school teachers.",
+    "stack": [
+      "Live site",
+      "Exam generator",
+      "Lesson notes"
+    ],
+    "href": "toolkit/index.html",
+    "external": true
+  }
+];
