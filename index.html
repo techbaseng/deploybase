@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deploybase — AI Deployment Directory</title>
+<meta name="description" content="A directory of configured, deployed AI systems — programming tutors, content engines, writing assistants and live tools built by Babatunde Awoyemi / Techbase Consultant Services.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap bar">
+    <div class="brand">
+      <span class="brand-mark"></span>
+      <div>
+        Deploybase
+        <small>AI deployment directory</small>
+      </div>
+    </div>
+    <nav class="nav-links">
+      <a href="#registry">Registry</a>
+      <a href="#about">About</a>
+      <a class="cta" href="https://github.com/babatundeawo" target="_blank" rel="noopener">GitHub ↗</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero wrap">
+    <div class="eyebrow"><span class="dot"></span>Deployment registry — all systems active</div>
+    <h1>Custom AI systems, configured and running.</h1>
+    <p class="lede">Every card below is a Claude Project built for one real job — tutoring a student, writing an article, generating a lesson, formatting a post. This directory tracks what each one does, who it serves, and how a session with it actually runs.</p>
+    <div class="terminal">
+      <span class="prompt">$</span> registry status --all
+      <span id="term-count" class="mono">…</span>
+      <span class="cursor"></span>
+    </div>
+  </section>
+
+  <section class="section wrap" id="registry">
+    <div class="section-head">
+      <h2>Deployment registry</h2>
+      <span class="count" id="deploy-count">loading…</span>
+    </div>
+    <div class="grid" id="deploy-grid">
+      <p>Loading registry…</p>
+    </div>
+  </section>
+
+  <section class="section wrap" id="about">
+    <div class="note-card">
+      <div class="icon">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#3355FF" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 8v5l3 3"/></svg>
+      </div>
+      <p><strong>This registry grows over time.</strong> Every deployment here is a Claude Project with its own instruction set, purpose and audience — some are ongoing workflows, one is a live public tool. New entries get added as new systems go into use, so bookmark this page rather than any single deployment.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap row">
+    <div class="links">
+      <span>Built by <a href="https://babatundeawo.github.io/" target="_blank" rel="noopener">Babatunde Awoyemi</a></span>
+      <a href="https://github.com/babatundeawo" target="_blank" rel="noopener">GitHub profile</a>
+      <a href="https://github.com/techbaseng" target="_blank" rel="noopener">Techbase</a>
+    </div>
+    <span class="fine">Powered by Claude (Anthropic)</span>
+  </div>
+</footer>
+
+<script src="assets/data/projects.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
