@@ -4,7 +4,7 @@ var PROJECTS = [
   {
     "id": "AGENT.01",
     "status": "active",
-    "name": "ClassPulse National \u2014 Build Tutor",
+    "name": "ClassPulse National — Build Tutor",
     "role": "AI programming tutor",
     "summary": "Walks a student through building a multi-school classroom feedback platform for Nigerian schools, one guided step at a time, from a shared architecture and curriculum spec.",
     "stack": [
@@ -13,7 +13,8 @@ var PROJECTS = [
       "Chart.js",
       "GitHub Pages"
     ],
-    "href": "projects/classpulse-national.html"
+    "href": "https://babatundeawo.github.io/classpulse-national/",
+    "external": true
   },
   {
     "id": "AGENT.02",
@@ -26,7 +27,8 @@ var PROJECTS = [
       "DOCX output",
       "Multi-brand"
     ],
-    "href": "projects/social-content-engine.html"
+    "href": "https://babatundeawo.github.io/social-content-engine/",
+    "external": true
   },
   {
     "id": "AGENT.03",
@@ -39,20 +41,22 @@ var PROJECTS = [
       "Jekyll front matter",
       "W3Schools sourcing"
     ],
-    "href": "projects/github-lesson-writer.html"
+    "href": "https://babatundeawo.github.io/github-lesson-writer/",
+    "external": true
   },
   {
     "id": "AGENT.04",
     "status": "active",
     "name": "GitHub Portfolio Rebuild",
     "role": "Repo modernization workflow",
-    "summary": "A recurring rebuild process across two GitHub profiles \u2014 a distinct visual identity per repo, a modern README, and one strict linking architecture kept consistent everywhere.",
+    "summary": "A recurring rebuild process across two GitHub profiles — a distinct visual identity per repo, a modern README, and one strict linking architecture kept consistent everywhere.",
     "stack": [
       "Repo audits",
       "README system",
       "Link architecture"
     ],
-    "href": "projects/github-portfolio-rebuild.html"
+    "href": "https://babatundeawo.github.io/github-portfolio-rebuild/",
+    "external": true
   },
   {
     "id": "AGENT.05",
@@ -65,7 +69,8 @@ var PROJECTS = [
       "APA references",
       "Theological research"
     ],
-    "href": "projects/nigerian-christian-apologist.html"
+    "href": "https://babatundeawo.github.io/nigerian-christian-apologist/",
+    "external": true
   },
   {
     "id": "AGENT.06",
@@ -77,7 +82,8 @@ var PROJECTS = [
       "Substack formatting",
       "Voice preservation"
     ],
-    "href": "projects/substack-post-formatter.html"
+    "href": "https://babatundeawo.github.io/substack-post-formatter/",
+    "external": true
   },
   {
     "id": "AGENT.07",
@@ -90,13 +96,14 @@ var PROJECTS = [
       "Phased teaching",
       "Ages 8+"
     ],
-    "href": "projects/techbase-code-coach.html"
+    "href": "https://babatundeawo.github.io/techbase-code-coach/",
+    "external": true
   },
   {
     "id": "TOOL.01",
     "status": "tool",
     "name": "Educator AI Toolkit",
-    "role": "Live tool \u2014 free for teachers",
+    "role": "Live tool — free for teachers",
     "summary": "A free, step-by-step guide site that turns Claude into an exam paper, marking guide and weekly lesson note generator for Nigerian secondary school teachers.",
     "stack": [
       "Live site",
