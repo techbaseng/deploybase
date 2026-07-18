@@ -102,15 +102,29 @@ var PROJECTS = [
   {
     "id": "TOOL.01",
     "status": "tool",
-    "name": "Educator AI Toolkit",
+    "name": "Exam & Revision Generator",
     "role": "Live tool — free for teachers",
-    "summary": "A free, step-by-step guide site that turns Claude into an exam paper, marking guide and weekly lesson note generator for Nigerian secondary school teachers.",
+    "summary": "Turns uploaded e-notes into a formatted exam question paper with its own marking guide, or a self-study revision file, for any term, subject and class.",
     "stack": [
       "Live site",
       "Exam generator",
-      "Lesson notes"
+      "Marking guide"
     ],
-    "href": "toolkit/index.html",
+    "href": "https://babatundeawo.github.io/exam-revision-generator/",
+    "external": true
+  },
+  {
+    "id": "TOOL.02",
+    "status": "tool",
+    "name": "Weekly Lesson Note Generator",
+    "role": "Live tool — free for teachers",
+    "summary": "Generates a complete weekly lesson note booklet for every period, for any subject and class, from e-notes or a topic list alone.",
+    "stack": [
+      "Live site",
+      "Lesson notes",
+      "Auto-scheduling"
+    ],
+    "href": "https://babatundeawo.github.io/lesson-note-generator/",
     "external": true
   }
 ];
